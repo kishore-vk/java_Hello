@@ -10,7 +10,7 @@ public class MainTest {
 	public void test() {
 		
 		
-	 assertEquals("Output should be 11", 11, StringPrg.add());
+	 assertEquals("Output should be 11", 11, Main.add());
 		
 		
 	}
