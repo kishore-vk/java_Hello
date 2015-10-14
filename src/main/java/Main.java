@@ -1,25 +1,22 @@
-package localdomain.localhost.tutorial;
+package demo.helloworld;
 
 public class Main {
-    
-  public static void main(String[] args) {
-	  
-    printOne();
-	
-    int b = add();
-	
-	System.out.println(b);
-	
-    }
-     
-     public static void printOne() {
-		 
-		System.out.println("Hello World");
-     }
-     
-     public static int add() {
-         int c = 5+6;
-         return (c);
-     }
-     
+
+	public static void main(String[]args) {
+		System.out.println(printOne());
+		int b = add();
+		System.out.println(b);
+	}
+
+	public static String printOne() {
+		String bs;
+		bs = "Hello World";
+		return bs;
+	}
+
+	public static int add() {
+		int c = 5 + 6;
+		return (c);
+	}
+
 }

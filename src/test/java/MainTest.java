@@ -1,18 +1,16 @@
-package localdomain.localhost.tutorial;
+package demo.helloworld;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert. * ;
 
 import org.junit.Test;
 
 public class MainTest {
 
-	@Test
+	 @ Test
 	public void test() {
-		
-		
-	 assertEquals("Output should be 11", 11, Main.add());
-		
-		
+		assertEquals("Hello World", Main.printOne());
+		assertEquals("Output should be 11", 11, Main.add());
+
 	}
 
 }
