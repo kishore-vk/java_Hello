@@ -1,1 +1,4 @@
-A simple Hello world program
+Java Hello World Prgram
+Build using maven
+Deploy using Nexus
+Junit Test Included
