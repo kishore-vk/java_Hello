@@ -9,7 +9,7 @@ public class MainTest {
 	 @ Test
 	public void test() {
 		assertEquals("Hello World", Main.printOne());
-		assertEquals("Output should be 11", 14, Main.add());
+		assertEquals("Output should be 11", 11, Main.add());
 
 	}
 
