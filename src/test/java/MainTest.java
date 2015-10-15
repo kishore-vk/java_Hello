@@ -8,8 +8,8 @@ public class MainTest {
 
 	 @ Test
 	public void test() {
-		assertEquals("Hello! Good day", Main.printOne());
-		assertEquals("Output should be 12", 12, Main.add());
+		assertEquals("Hello! Manoj & Arif", Main.printOne());
+		assertEquals("Output should be 12", 14, Main.add());
 
 	}
 

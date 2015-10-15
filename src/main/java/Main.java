@@ -10,13 +10,13 @@ public class Main {
 
 	public static String printOne() {
 		String bs;
-		bs = "Hello! Good day";
+		bs = "Hello! Manoj & Arif";
 		return bs;
 	}
 
 	public static int add() {
-		int c = 6 + 6;
-		return (c);
+		int c = 8 + 6;
+		return c;
 	}
 
 }
