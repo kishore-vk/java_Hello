@@ -10,12 +10,12 @@ public class Main {
 
 	public static String printOne() {
 		String bs;
-		bs = "Hello World";
+		bs = "Hello! Good day";
 		return bs;
 	}
 
 	public static int add() {
-		int c = 5 + 6;
+		int c = 6 + 6;
 		return (c);
 	}
 
