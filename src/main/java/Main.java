@@ -6,6 +6,8 @@ public class Main {
 		System.out.println(printOne());
 		int b = add();
 		System.out.println(b);
+		int k =sub();
+		System.out.println(k);
 	}
 
 	public static String printOne() {
