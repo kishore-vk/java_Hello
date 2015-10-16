@@ -18,5 +18,10 @@ public class Main {
 		int c = 8 + 6;
 		return c;
 	}
+	
+	public static int sub() {
+		int j = 8 - 6;
+		return c;
+	}
 
 }
