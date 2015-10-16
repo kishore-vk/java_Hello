@@ -10,7 +10,7 @@ public class Main {
 
 	public static String printOne() {
 		String bs;
-		bs = "Hello! Manoj & Arif";
+		bs = "Hello! Have a great weekend";
 		return bs;
 	}
 
