@@ -21,7 +21,7 @@ public class Main {
 	
 	public static int sub() {
 		int j = 8 - 6;
-		return c;
+		return j;
 	}
 
 }
