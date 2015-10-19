@@ -9,7 +9,8 @@ public class MainTest extends Main {
 		assertEquals("Hello! Have a great weekend", Main.printOne());
 		assertEquals("Output should be 30", 30, Main1.add(20, 10));
 		assertEquals("Output should be 10", 10, Main2.sub(20,10 ));
-		assertEquals("Output should be 10", -10, Main2.sub(10,20 ));
+		assertEquals("Output should be 30", 40, Main1.add(20, 10));
+		assertEquals("Output should be 10", 10, Main2.sub(10,20 ));
 	}
 
 	}
