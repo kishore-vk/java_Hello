@@ -4,16 +4,17 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class MainTest extends Main {
-	 @ Test
+	@Test
 	public void test() {
-		assertEquals("Hello! Have a great weekend", Main.printOne()); //Junit test for HelloWorld 
-		assertEquals("Output should be 30", 30, Main1.add(20, 10)); // Suceess Junit test for addition
-		assertEquals("Output should be 10", 10, Main2.sub(20,10 ));// Suceess Junit test for subraction
-		
-		/*	// Failure Junit test cases 
-		assertEquals("Output should be 30", 27, Main1.add(15, 12));
-		assertEquals("Output should be 10", -10, Main2.sub(10,20 )); */
-	}
+		/* Junit test for HelloWorld */
+		assertEquals("Hello! Have a great weekend", Main.printOne()); 
 
-	
-	}
+		/* Success Junit test cases  */
+		assertEquals("Output should be 30", 30, Main1.add(20, 10));
+		assertEquals("Output should be 10", 10, Main2.sub(20, 10));
+
+		/* Failure Junit test cases */
+		assertEquals("Output should be 30", 27, Main1.add(15, 12)); 
+		assertEquals("Output should be 10", -10, Main2.sub(10,20 ));
+		}
+}
