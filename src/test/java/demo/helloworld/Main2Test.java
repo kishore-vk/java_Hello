@@ -8,6 +8,6 @@ public class Main2Test extends Main {
 	public void test() {
 		
 		/* Failure Junit test cases */
-		assertEquals("Output should be 10", -87, Main2.sub(10,20 ));
+		assertEquals("Output should be 10", -10, Main2.sub(10,20 ));
 		}
 }
