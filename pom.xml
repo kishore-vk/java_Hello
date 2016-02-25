@@ -23,12 +23,12 @@
 		<repository>
 			<id>deployment</id>
 			<name>Internal Releases</name>
-			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+			<url>http://10.223.66.168:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>deployment</id>
 			<name>Internal Snapshot Releases</name>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://10.223.66.168:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -51,7 +51,7 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
+			<plugin></plugin>
 				<!-- Unit tests are run by surefire -->
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
