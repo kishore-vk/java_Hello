@@ -7,7 +7,7 @@ public class MainTest extends Main {
 	@Test
 	public void test() {
 		/* Junit test for HelloWorld */
-		assertEquals("Hello! Have a splendid week ahead", Main.printOne()); 
+		assertEquals("Hello! Sowmiya", Main.printOne()); 
 
 		/* Success Junit test cases  */
 		assertEquals("Output should be 30", 30, Main1.add(20, 10));
