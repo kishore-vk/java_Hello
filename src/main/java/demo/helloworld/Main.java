@@ -19,7 +19,7 @@ public class Main {
 	// HelloWorld Function
 	public static String printOne() {
 		String bs;
-		bs = "Hello! Have a splendid week ahead";
+		bs = "Hello! Sowmiya";
 		return bs;
 	}
 
